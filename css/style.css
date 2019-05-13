@@ -1,0 +1,85 @@
+﻿        body {
+            margin:0px;
+            font-family:Roboto;
+        }
+        hr {
+            border-bottom:1px solid #fff;
+        }
+        .slider {
+            background-image:url(../images/bg_6.jpg);
+            background-size:cover;
+            background-repeat:no-repeat;
+            height:330px;             
+        }
+        .container {
+            width:64%; 
+            margin:auto;
+            font-family:roboto;            
+        }
+
+        .lside {
+            width:65%;
+            background-color:#eceff1;
+            float:left;
+            min-height:300px;
+            max-height:500px;
+        }
+        .rside {
+            width:35%;
+            background-color:#b0bec5;
+            float:left;
+            min-height:300px;
+            max-height:500px;
+        }
+        #logo {
+            font-size:70px; 
+            margin:auto;
+            background-color:#ffebee;
+            text-align:center;
+            height:80px; 
+            padding:20px;
+        }
+        #menu {
+            background-color:#ef5350;
+            height:50px;
+            color:#fff;
+            margin:auto;
+            text-align:center;
+        }
+                
+        #film {
+            padding:60px;     
+            color:#fff;
+            background-color:rgba(0,0,0,0.6);
+            height:210px; 
+        }
+        .Button {
+            
+            background-color: #f44336; 
+            color: #fff; 
+            font-size:15px;
+            min-width:85px;
+            border:2px solid red; 
+            padding: 5px 15px 5px 15px;
+	     }
+        .footer {
+            height:40px;
+            color:#bdbdbd; 
+            font-size:20px; 
+            text-align: center; 
+            line-height:40px;
+        }
+        .TextBox {
+            width: 95%;
+            padding:5px 5px; 
+            margin:8px 0; 
+            box-sizing:border-box; 
+            border:none; 
+            border-bottom:2px solid #f44336; 
+            background-color:rgba(0,0,0,0); 
+            color:#ef5350;
+	     }
+        .white_background {
+            min-height:430px;
+            padding:40px 50px 40px 50px;
+        }

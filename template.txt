@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Give Blood - Home</title>
+    <link rel="icon" href="images/logo-1.png" type="image/x-icon" />
+
+    <style>
+        body {
+            margin:0px;
+            font-family:Roboto;
+        }
+        .container {
+            width:64%; 
+            margin:auto;
+            font-family:roboto;            
+        }
+
+        .lside {
+            width:65%;
+            background-color:#eceff1;
+            float:left;
+            min-height:300px;
+            max-height:500px;
+        }
+        .rside {
+            width:35%;
+            background-color:#b0bec5;
+            float:left;
+            min-height:300px;
+            max-height:500px;
+        }
+        #logo {
+            font-size:70px; 
+            margin:auto;
+            background-color:#ffebee;
+            text-align:center;
+            height:80px; 
+            padding:20px;
+        }
+        #menu {
+            background-color:#ef5350;
+            height:50px;
+            color:#fff;
+            margin:auto;
+            text-align:center;
+        }
+        .slider {
+            background-image:url(images/bg_6.jpg);
+            background-size:cover;
+            background-repeat:no-repeat;
+            height:330px;             
+        }
+        #film {
+            padding:60px;     
+            color:#fff;
+            background-color:rgba(0,0,0,0.6);
+            height:210px; 
+        }
+        .Button {
+            
+            background-color: #f44336; 
+            color: #fff; 
+            border:2px solid red; 
+            padding: 5px 10px 5px 10px;
+	     }
+        .footer {
+            height:40px;
+            color:#bdbdbd; 
+            font-size:20px; 
+            text-align: center; 
+            line-height:40px;
+        }
+    </style>
+</head>
+<body bgcolor="#e57373">
+    <form id="form1" runat="server">
+
+    <!--Container1Start-->
+    <div>
+        <div style="width:18%; height:170px; background-color:#ff8a80; float:left;"></div>    
+        <div class="container" style="float:left;">
+            <!--LogoStart-->
+            <div id="logo">
+                <img src="images/logo.png" alt="Logo" style="height:80px; " />
+            </div>
+            <!--LogoEnd-->
+
+            <!--MenuStart-->
+            <div id="menu">
+                <asp:Menu ID="Menu1" runat="server" Font-Size="24px" Orientation="Horizontal" >
+                    <Items>
+                        <asp:MenuItem Text="Home" Value="Home" NavigateUrl="~/index.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="Appointments" Value="Appointments" NavigateUrl="~/Appointments.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="LogIn" Value="LogIn" NavigateUrl="~/login.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="About" Value="About" NavigateUrl="~/aboutus.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="Contact" Value="Contact" NavigateUrl="~/contactus.aspx"></asp:MenuItem>
+                    </Items>
+                    <StaticHoverStyle BorderColor="#FF3300" ForeColor="#FFCDD2" />
+                    <StaticMenuItemStyle ForeColor="White" HorizontalPadding="25px" />
+                    <StaticMenuStyle VerticalPadding="10px" HorizontalPadding="71px" />
+                </asp:Menu>
+            </div>        
+            <!--MenuEnd-->
+
+        </div>
+        <div style="width:18%; height:170px; background-color:#ff8a80; float:left;"></div>
+    
+    </div>
+    <!--Container1End-->
+
+    <!--Container2Start-->
+    <div>
+        <div class="container" style="background-color:#eceff1; float:left; margin-left:18%; margin-right:18%;">
+        </div>
+    </div>
+    <!--Container2End-->
+
+    <!--Container3Start-->
+    <div>
+        <div class="container" style="background-color:#212121; float:left; margin-left:18%; margin-right:18%;">
+
+        <!--FooterStart-->
+        <div class="footer" >©2019 Company All Rights Reserved.</div>
+        <!--FooterEnd-->
+        </div>
+    </div>
+    <!--Container3End-->
+    </form>
+
+</body>
+</html>
